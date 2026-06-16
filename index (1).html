@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dhanu.portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <a href="#" class="logo">
+            <img src="pic.jpeg" alt="Logo"/>
+            <span>Dhanu.<em>portfolio</em></span>
+        </a>
+        <ul>
+            <li><a href="#" onclick="goTo(0)">Home</a></li>
+            <li><a href="#" onclick="goTo(1)">Skills</a></li>
+            <li><a href="#" onclick="goTo(2)">Projects</a></li>
+            <li><a href="#" onclick="goTo(3)">About</a></li>
+            <li><a href="#" onclick="goTo(4)">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- SLIDER -->
+    <div class="slider-wrapper">
+        <div class="slider" id="slider">
+
+            <!-- SLIDE 1: HOME -->
+            <div class="slide" id="slide-home">
+                <div class="home-text">
+                    <div class="badge">👋 Hello, World!</div>
+                    <h1>I'm <span>GOLLA DHANUNJAYA</span></h1>
+                    <h2>A <u>Web Developer</u></h2>
+                    <p>I build clean, responsive, and user-friendly websites using HTML, CSS, and JavaScript. Passionate about creating great web experiences and always eager to learn new things.</p>
+                    <div class="btn-group">
+                        <a href="https://drive.google.com/file/d/1yNJWqfSkwLW_HAhdVAgFYZHk9VDApBwC/view?usp=drivesdk" class="btn-primary" target="_blank">Download CV</a>
+                        <a href="#" class="btn-outline" onclick="goTo(4)">Contact Me</a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <img src="pic.jpeg" alt="Dhanu photo">
+                </div>
+            </div>
+
+            <!-- SLIDE 2: SKILLS -->
+            <div class="slide">
+                <div class="slide-inner">
+                    <h2>My <span>Tech Stack</span></h2>
+                    <p class="subtitle">Technologies I work with</p>
+                    <div class="skills-grid">
+                        <div class="skill-pill">HTML5</div>
+                        <div class="skill-pill">CSS3</div>
+                        <div class="skill-pill">JavaScript</div>
+                        <div class="skill-pill">React.js</div>
+                        <div class="skill-pill">Node.js</div>
+                        <div class="skill-pill">Git &amp; GitHub</div>
+                        <div class="skill-pill">Responsive Design</div>
+                        <div class="skill-pill">VS Code</div>
+                        <div class="skill-pill">Figma (basics)</div>
+                        <div class="skill-pill">Python (basics)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 3: PROJECTS -->
+            <div class="slide">
+                <div class="slide-inner">
+                    <h2>My <span>Projects</span></h2>
+                    <p class="subtitle">Things I've built</p>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-icon">🌐</div>
+                            <h3>Portfolio Website</h3>
+                            <p>Personal portfolio built using HTML, CSS and JavaScript with responsive design.</p>
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JS</span>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">🧮</div>
+                            <h3>Mini Calculator</h3>
+                            <p>Functional calculator app with clean UI and basic arithmetic operations.</p>
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JS</span>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">✅</div>
+                            <h3>To-Do List App</h3>
+                            <p>Task manager app with add, delete, and complete task functionality.</p>
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDE 4: ABOUT -->
+            <div class="slide">
+                <div class="about-only-text">
+                    <h2>ABOUT <span>ME</span></h2>
+                    <div class="role-badge">Web Developer · CSE Student @ LPU</div>
+                    <p>A passionate and detail-oriented web developer with hands-on experience in building responsive and user-friendly websites. Proficient in HTML, CSS, and JavaScript, I enjoy turning creative ideas into clean, functional web pages. I am eager to grow, take on new challenges, and contribute to exciting web projects.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-num">3+</span>
+                            <span class="stat-label">Projects Built</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">1st</span>
+                            <span class="stat-label">Year B.Tech CSE</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">LPU</span>
+                            <span class="stat-label">University</span>
+                        </div>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1yNJWqfSkwLW_HAhdVAgFYZHk9VDApBwC/view?usp=drivesdk" class="btn-primary" target="_blank">Download CV</a>
+                </div>
+            </div>
+
+            <!-- SLIDE 5: CONTACT -->
+            <div class="slide">
+                <div class="contact-inner">
+                    <h2>CONTACT <span>ME</span></h2>
+                    <p class="subtitle">Feel free to reach out for any web development projects or collaborations. I'm always open to new opportunities and connections!</p>
+                    <div class="social-links">
+                        <a href="https://github.com/golladhanunjayyadav-cloud" target="_blank" class="social-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/golla-dhanunjaya" target="_blank" class="social-btn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="mailto:golladhanunjayyadav@gmail.com" class="social-btn">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                        <a href="https://www.instagram.com/dhana__prince" target="_blank" class="social-btn">
+                            <i class="fab fa-instagram"></i> Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ARROWS -->
+        <div class="arrow arrow-left" onclick="prevSlide()">&#8249;</div>
+        <div class="arrow arrow-right" onclick="nextSlide()">&#8250;</div>
+
+        <!-- DOTS -->
+        <div class="dots" id="dots"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+git init
+git add .
+git commit -m "first commit - portfolio website"
+git branch -M main
+git remote add origin https://github.com/golladhanunjayyadav-cloud/portfolio.git
+git push -u origin main
