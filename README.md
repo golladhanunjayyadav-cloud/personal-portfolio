@@ -48,7 +48,7 @@ portfolio/
 🚀 How to Run Locally
 
 bash# Clone the repo
-git clone https://github.com/YOUR_USERNAME/portfolio.git
+git clone https://github.com/golladhanunjayyadav-cloud/personal-portfolio
 
 # Open in browser
 Just open index.html in any browser — no setup needed!
